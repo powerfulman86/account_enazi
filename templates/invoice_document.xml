@@ -1,0 +1,12 @@
+<odoo>
+    <template id="report_invoice_IATW" inherit_id="account.report_invoice_document">
+        <xpath expr="//div[@class='page']" position="inside">
+            <t t-if="o.am_in_report">
+                <p align="right">
+                    <strong>Amount in words:</strong>
+                    <span t-field="o.total_amount_words"/>
+                </p>
+            </t>
+        </xpath>
+    </template>
+</odoo>

@@ -1,0 +1,599 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_enazi
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 19:54+0000\n"
+"PO-Revision-Date: 2022-09-05 19:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "1 - 30 Days"
+msgstr "1 - 30 يوم"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "1 Month"
+msgstr "1 شهر"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "121 Days +"
+msgstr "121 يوم +"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "2 Months"
+msgstr "2 شهر"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "3 Months"
+msgstr "3 شهور"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "31 - 60 Days"
+msgstr "31 - 60 يوم"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "4 Months"
+msgstr "4 شهور"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "61 - 90 Days"
+msgstr "61 - 90 يوم"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "91 - 120 Days"
+msgstr "91 - 120 يوم"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid ""
+"<strong>*** يعتبر هذا الكشف صحيحا ما لم يتم الاعتراض خلال 7 ايام عمل من "
+"تاريخ تسليمه .</strong>"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "<strong>Accountant</strong>"
+msgstr "<strong>المحاسب</strong>"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.report_invoice_IATW
+msgid "<strong>Amount in words:</strong>"
+msgstr "<strong>تفقيط المبلغ:</strong>"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "<strong>Date:</strong>"
+msgstr "<strong>التاريخ:</strong>"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "<strong>Partner Code:</strong>"
+msgstr "<strong>كود الجهة:</strong>"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "<strong>Signature</strong>"
+msgstr "<strong>التوقيع</strong>"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "<strong>The partner doesn't have due entries.</strong>"
+msgstr "<strong>لا توجد مستحقات لدى الجهة.</strong>"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__account_type
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__account_type
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__account_type
+msgid "Account type"
+msgstr "نوع الحساب"
+
+#. module: account_enazi
+#: model:ir.actions.report,name:account_enazi.action_print_activity_statement
+msgid "Activity Statement"
+msgstr "كشف حساب"
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_activity_statement_wizard
+msgid "Activity Statement Wizard"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__activity_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:account_enazi.selection__outstanding_statement_wizard__aging_type__days
+#: model:ir.model.fields.selection,name:account_enazi.selection__statement_common_wizard__aging_type__days
+msgid "Age by Days"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__activity_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:account_enazi.selection__outstanding_statement_wizard__aging_type__months
+#: model:ir.model.fields.selection,name:account_enazi.selection__statement_common_wizard__aging_type__months
+msgid "Age by Months"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__aging_type
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__aging_type
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__aging_type
+msgid "Aging Method"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.aging_buckets
+msgid "Aging Report at"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.statement_common_view
+msgid ""
+"Aging details can be shown in the report, expressed in aging         "
+"buckets, so the partner can review how much is open, due or overdue."
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "Amount"
+msgstr "المبلغ"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_account_move__total_amount_words
+#: model_terms:ir.ui.view,arch_db:account_enazi.account_invoice_form_IATW
+msgid "Amount in Words"
+msgstr "تفقيط المبلغ"
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__ar
+msgid "Arabic"
+msgstr "العربية"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Balance"
+msgstr "الرصيد"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "Balance Forward"
+msgstr "الرصيد الافتتاحي"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.statement_common_view
+msgid "Cancel"
+msgstr "الغاء"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_account_move__choose_lang
+msgid "Choose a language..."
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__company_id
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__company_id
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__company_id
+msgid "Company"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__create_uid
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__create_date
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_res_currency
+msgid "Currency"
+msgstr "العملة"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_res_currency__currency_subunit_label
+msgid "Currency Subunit"
+msgstr "الوحدة الفرعية للعملة"
+
+#. module: account_enazi
+#: model:ir.model.fields,help:account_enazi.field_res_currency__currency_subunit_label
+msgid "Currency Subunit Name"
+msgstr "اسم الوحدة الفرعية للعملة"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_res_currency__currency_unit_label
+msgid "Currency Unit"
+msgstr "وحدة العملة"
+
+#. module: account_enazi
+#: model:ir.model.fields,help:account_enazi.field_res_currency__currency_unit_label
+msgid "Currency Unit Name"
+msgstr "اسم وحدة العملة"
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "Current"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__dk
+msgid "Danish"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__date_end
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__date_end
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__date_end
+msgid "Date End"
+msgstr "تاريخ الانتهاء"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__date_start
+msgid "Date Start"
+msgstr "تاريخ البداية"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Description"
+msgstr "الوصف"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__display_name
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__display_name
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_activity_statement__display_name
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_outstanding_statement__display_name
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common__display_name
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__filter_partners_non_due
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__filter_partners_non_due
+msgid "Don't show partners with no due entries"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Due Date"
+msgstr "تاريخ الاستحقاق"
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__nl
+msgid "Dutch"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Ending Balance"
+msgstr "الرصيد النهائي"
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__en
+msgid "English"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__en_gb
+msgid "English - Great Britain"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__filter_negative_balances
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__filter_negative_balances
+msgid "Exclude Negative Balances"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.statement_common_view
+msgid "Export PDF"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__fr
+msgid "French"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__de
+msgid "German"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__id
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__id
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_activity_statement__id
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_outstanding_statement__id
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common__id
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__id
+msgid "ID"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__id
+msgid "Indonesian"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_account_move
+msgid "Journal Entries"
+msgstr "القيود اليومية"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_account_move__lang
+msgid "Language"
+msgstr "اللغة"
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard____last_update
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard____last_update
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_activity_statement____last_update
+#: model:ir.model.fields,field_description:account_enazi.field_report_account_enazi_outstanding_statement____last_update
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common____last_update
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__write_uid
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__write_date
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__lv
+msgid "Latvian"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__lt
+msgid "Lithuanian"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__name
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__name
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__name
+msgid "Name"
+msgstr "الوصف"
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__no
+msgid "Norwegian"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__number_partner_ids
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__number_partner_ids
+msgid "Number Partner"
+msgstr ""
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "Older"
+msgstr "أقدم"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Open Amount"
+msgstr "الرصيد الافتتاحي"
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Original"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.actions.report,name:account_enazi.action_print_outstanding_statement
+msgid "Outstanding Statement"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_outstanding_statement_wizard
+msgid "Outstanding Statement Wizard"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.actions.act_window,name:account_enazi.activity_statement_wizard_action
+#: model:ir.model,name:account_enazi.model_report_account_enazi_activity_statement
+msgid "Partner Activity Statement"
+msgstr "كشف حساب عميل"
+
+#. module: account_enazi
+#: model:ir.actions.act_window,name:account_enazi.outstanding_statement_wizard_action
+#: model:ir.model,name:account_enazi.model_report_account_enazi_outstanding_statement
+msgid "Partner Outstanding Statement"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__activity_statement_wizard__account_type__payable
+#: model:ir.model.fields.selection,name:account_enazi.selection__outstanding_statement_wizard__account_type__payable
+#: model:ir.model.fields.selection,name:account_enazi.selection__statement_common_wizard__account_type__payable
+msgid "Payable"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "Payment"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__pl
+msgid "Polish"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__activity_statement_wizard__account_type__receivable
+#: model:ir.model.fields.selection,name:account_enazi.selection__outstanding_statement_wizard__account_type__receivable
+#: model:ir.model.fields.selection,name:account_enazi.selection__statement_common_wizard__account_type__receivable
+msgid "Receivable"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Reference number"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__ru
+msgid "Russian"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_activity_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:account_enazi.field_outstanding_statement_wizard__show_aging_buckets
+#: model:ir.model.fields,field_description:account_enazi.field_statement_common_wizard__show_aging_buckets
+msgid "Show Aging Buckets"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields,field_description:account_enazi.field_account_move__am_in_report
+msgid "Show in invoice report"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__sl
+msgid "Slovene"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__es
+msgid "Spanish"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_statement_common
+msgid "Statement Reports Common"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model,name:account_enazi.model_statement_common_wizard
+msgid "Statement Reports Common Wizard"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "Statement between"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Statement of Account"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "Statement up to"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "Supplier"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_wizard_view
+msgid ""
+"The activity statement provides details of all activity on"
+"                     a partner's receivables and payables between two "
+"selected dates. This includes all invoices,                     refunds and "
+"payments. Any outstanding balance dated prior to the chosen statement"
+"                     period will appear as a forward balance at the top of "
+"the statement. The list is                     displayed in chronological "
+"order and is split by currencies."
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_wizard_view
+msgid ""
+"The outstanding statement provides details of all partner's outstanding"
+"         receivables and payables up to a particular date. This includes all"
+" unpaid invoices, unclaimed         refunds and outstanding payments. The "
+"list is displayed in chronological order and is         split by currencies."
+msgstr ""
+
+#. module: account_enazi
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#: code:addons/account_enazi/report/report_statement_common.py:0
+#, python-format
+msgid "Total"
+msgstr "الإجمالي"
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__tr
+msgid "Turkish"
+msgstr ""
+
+#. module: account_enazi
+#: model:ir.model.fields.selection,name:account_enazi.selection__account_move__lang__uk
+msgid "Ukrainian"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+msgid "and"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.activity_statement_document
+#: model_terms:ir.ui.view,arch_db:account_enazi.aging_buckets
+#: model_terms:ir.ui.view,arch_db:account_enazi.outstanding_statement_document
+msgid "in"
+msgstr ""
+
+#. module: account_enazi
+#: model_terms:ir.ui.view,arch_db:account_enazi.statement_common_view
+msgid "or"
+msgstr ""

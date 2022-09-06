@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_account_enazi_account_enazi,account_enazi.account_enazi,model_account_enazi_account_enazi,base.group_user,1,1,1,1
