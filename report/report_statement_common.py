@@ -334,7 +334,7 @@ class ReportStatementCommon(models.AbstractModel):
         res = {}
         # get base data
         lines = self._get_account_display_lines(company_id, partner_ids, date_start, date_end)
-        balances_forward = self._get_account_initial_balance(company_id, partner_ids, date_end)
+        balances_forward = self._get_account_initial_balance(company_id, partner_ids, date_start)
 
         if data["show_aging_buckets"]:
             buckets = self._get_account_show_buckets(company_id, partner_ids, date_end, aging_type)
