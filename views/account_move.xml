@@ -1,5 +1,5 @@
 <odoo>
-    <data>
+     <data>
         <record model="ir.ui.view" id="account_invoice_form_IATW">
             <field name="name">Account Invoice</field>
             <field name="model">account.move</field>
@@ -7,10 +7,7 @@
             <field name="arch" type="xml">
                 <xpath expr="//field[@name='invoice_outstanding_credits_debits_widget']" position="after">
                     <group string='Amount in Words'>
-                        <field name="choose_lang" invisible="1"/>
-                        <field name="lang" invisible="1"/>
-                        <field name="total_amount_words"/>
-                        <field name="am_in_report" invisible="1"/>
+                        <field name="total_amount_words" nolabel="1"/>
                     </group>
                 </xpath>
             </field>

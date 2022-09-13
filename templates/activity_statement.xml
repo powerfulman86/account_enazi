@@ -14,7 +14,9 @@
                 </div>
             </t>
             <div class="page">
+                <div class="oe_structure"/>
                 <h4>Statement of Account</h4>
+                <h4>كشف حساب</h4>
                 <div id="informations" class="row mt32 mb32">
                     <div class="col-3 bm-2">
                         <strong>Date:</strong>
@@ -123,18 +125,11 @@
 
                             </tbody>
                         </table>
-                        <div class="row" style="text-align=right;">
-                            <div>
-                                <span>لا غير</span>
-                            </div>
-                            <div>
-                                <span t-esc="currency['due_to_words']"/>
-                            </div>
-
-                            <div>
-                                <span>Net Balance</span>
-                            </div>
-                        </div>
+                        <p align="right">
+                            <span t-esc="currency['due_to_words']"/>
+                            <span>لا غير</span>
+                            <strong>Net Balance</strong>
+                        </p>
                         <br/>
                         <br/>
                         <t t-call="account_enazi.aging_buckets" t-if="currency['buckets']"/>

@@ -6,7 +6,7 @@
         <p>
             Aging Report at
             <span t-esc="d['end']"/>
-            in<span t-esc="display_currency.name"/>:
+            in <span t-esc="display_currency.name"/>:
         </p>
         <table class="table table-sm table-statement" style="font-size: 12px;">
             <thead>
