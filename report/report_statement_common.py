@@ -417,7 +417,7 @@ class ReportStatementCommon(models.AbstractModel):
         total_amount_words = ''
         currency = self.env.company.currency_id
         amount = int(close_balance)
-        amount_decimal = int(close_balance * 100 % 100)
+        amount_decimal = int(close_balance * 1000 % 1000)
         try:
             lang = self.env['res.lang'].search([('iso_code', '=', 'ar')], limit=1)
             unit = self.env['ir.translation'].search([('lang', '=', lang.code),
