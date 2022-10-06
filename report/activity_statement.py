@@ -84,7 +84,7 @@ class ActivityStatement(models.AbstractModel):
                 THEN l.ref
            WHEN (aj.type in ('bank', 'cash'))
                 THEN 'Payment'
-                ELSE ''
+            ELSE l.ref
             END as ref,
             l.blocked, l.currency_id, l.company_id,
             CASE WHEN (l.currency_id is not null AND l.amount_currency > 0.0)
@@ -116,7 +116,7 @@ class ActivityStatement(models.AbstractModel):
                     THEN l.ref
                 WHEN (aj.type in ('bank', 'cash'))
                     THEN 'Payment'
-                    ELSE ''
+                ELSE l.ref
                 END,
                 l.blocked, l.currency_id, l.amount_currency, l.company_id
         """,
